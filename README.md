@@ -15,7 +15,8 @@
     <footer>
         <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
     </footer>
-</body><main>
+</body> 
+<main>
         <section id="container">
                 <article class="cartao">
                 </article>
