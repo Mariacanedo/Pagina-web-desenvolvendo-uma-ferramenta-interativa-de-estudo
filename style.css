@@ -1,7 +1,7 @@
 :root {
-    --text-color: #DBE4EF;
+    --text-color: #eb66ceab;
     --card-front-color:black;
-    --card-back-color: white;
+    --card-back-color: rgb(240, 179, 227);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     padding: 4rem;
     gap: 3rem;
-    box-shadow: 1px 1px 20px purple;
+    box-shadow: 1px 1px 20px rgb(219, 94, 198);
 }
 
 .cartao {
@@ -23,7 +23,7 @@ body {
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
-    box-shadow: 1px 1px 20px purple;
+    box-shadow: 1px 1px 20px rgb(223, 80, 187);
 }
 
 .cartao__conteudo {
@@ -32,12 +32,12 @@ body {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    box-shadow: 1px 1px 20px rgb(149, 0, 255);
+    box-shadow: 1px 1px 20px rgb(230, 12, 182);
 }
 
 .cartao__conteudo h3 {
     color: var(--text-color);
-    border: 4px solid purple;
+    border: 4px solid rgb(236, 79, 189);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -45,7 +45,7 @@ body {
     border-radius: 0.6rem;
     font-size: 1vw;
     backface-visibility: hidden;
-    box-shadow: 1px 1px 20px rgb(179, 0, 255);
+    box-shadow: 1px 1px 20px rgb(212, 34, 189);
 }
 
 .cartao__conteudo p {
@@ -81,18 +81,18 @@ body {
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
     background-color: black;
-    border: 4px solid green;
+    border: 4px solid rgba(231, 80, 199, 0.692);
 }
 
 footer {
     background-color: black;
-    color: blueviolet;;
+    color: rgba(238, 77, 217, 0.603);;
     font-size: larger;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 3rem;
-    filter: drop-shadow(1px 1px 20px rgb(105, 10, 248));
+    filter: drop-shadow(1px 1px 20px rgba(248, 10, 208, 0.781));
     border-radius: 10px;
     font-family: monospace;
     font-size: 22px;
@@ -128,7 +128,7 @@ footer p {
 }
 
 h1{
-    color: blueviolet;
+    color: rgba(226, 43, 195, 0.301);
     font-size: larger;
     text-align: center;
     font-family: monospace;
@@ -142,7 +142,7 @@ h1{
     left: calc(100% - 20px);
     width: 50px;
     height: 50px;
-    background: green;
+    background: rgb(156, 15, 121);
     border-radius: 50%;
     animation: ball-move8234 3s ease-in-out 1s infinite alternate;
   }
@@ -161,7 +161,7 @@ h1{
   .bar {
     width: 200px;
     height: 12.5px;
-    background: purple;
+    background: rgb(235, 48, 157);
     border-radius: 30px;
     transform: rotate(-15deg);
     animation: up-down6123 3s ease-in-out 1s infinite alternate;
@@ -212,7 +212,7 @@ h1{
   }
   
   .radio > label > svg {
-    fill: #666;
+    fill: #ec73ce;
     transition: fill 0.3s ease;
   }
   
@@ -222,7 +222,7 @@ h1{
     position: absolute;
     width: 6px;
     height: 6px;
-    background-color: #ff9e0b;
+    background-color: #cf4da8;
     border-radius: 50%;
     opacity: 0;
     transform: scale(0);
@@ -257,20 +257,20 @@ h1{
   
   /* Star glow and animation on hover */
   .radio > label:hover > svg {
-    fill: #ff9e0b;
-    filter: drop-shadow(0 0 15px rgba(255, 158, 11, 0.9));
+    fill: #eb47ba;
+    filter: drop-shadow(0 0 15px rgba(204, 59, 180, 0.9));
     animation: shimmer 1s ease infinite alternate;
   }
   
   .radio > input:checked + label > svg {
-    fill: #ff9e0b;
-    filter: drop-shadow(0 0 15px rgba(255, 158, 11, 0.9));
+    fill: #df41aa;
+    filter: drop-shadow(0 0 15px rgba(194, 106, 165, 0.9));
     animation: pulse 0.8s infinite alternate;
   }
   
   .radio > input:checked + label ~ label > svg,
   .radio > input:checked + label > svg {
-    fill: #ff9e0b; /* Highlight the stars */
+    fill: #e076b1; /* Highlight the stars */
   }
   
   @keyframes pulse {
@@ -299,24 +299,24 @@ h1{
   
   @keyframes shimmer {
     0% {
-      filter: drop-shadow(0 0 10px rgba(255, 158, 11, 0.5));
+      filter: drop-shadow(0 0 10px rgba(245, 74, 179, 0.5));
     }
     100% {
-      filter: drop-shadow(0 0 20px rgba(255, 158, 11, 1));
+      filter: drop-shadow(0 0 20px rgb(255, 11, 125));
     }
   }
   
   .radio > input:checked + label:hover,
   .radio > input:checked + label:hover ~ label {
-    fill: #e58e09;
+    fill: #e046bf;
   }
   
   .radio > label:hover,
   .radio > label:hover ~ label {
-    fill: #ff9e0b;
+    fill: #f129a5;
   }
   
   .radio input:checked ~ label svg {
-    fill: #ffa723;
+    fill: #ff23daa4;
   }
   
